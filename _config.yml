@@ -15,17 +15,17 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: 송채은의 기술블로그
+  tagline: Java Recording . . .
   date_format: "%b %-d, %Y"
-  style: black
+  style: blue
   showNav: false
   showPicker: true
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
+    twitter: github
+    github:  dkehfl/dkehfl.github.io
     linkedIn: in/thelehhman
     rss: rss
  
