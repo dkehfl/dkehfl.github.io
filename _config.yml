@@ -16,7 +16,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: 송채은의 기술블로그
-  tagline: Java Recording . . .
+  tagline: Java recording . . .
   date_format: "%b %-d, %Y"
   style: blue
   showNav: false
