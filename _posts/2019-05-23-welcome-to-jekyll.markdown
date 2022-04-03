@@ -282,7 +282,7 @@ github에 다운로드.jpeg라는 이미지를 업로드 후 위와 같이 입�
 ```
 |**name**|ddsaf|test|
 |:---:|:---:|:---:|
-|java|markdown|HTML|
+|java|mark|HTML|
 |J|M|H|
 |A|A|T|
 ```
