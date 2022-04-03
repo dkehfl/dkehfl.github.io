@@ -258,7 +258,7 @@ public class Hello {
 
 github에 초코.png라는 이미지를 업로드 후 위와 같이 입력하면
 
-![곰돌이](https://drive.google.com/file/d/1xBaVOMtm8u-PG0fx31pcfhu8bOeQYuup/view?usp=sharing)
+![곰돌이](http://drive.google.com/uc?export=view&id=1xBaVOMtm8u-PG0fx31pcfhu8bOeQYuup)
 
 사진이 첨부된다.
 
