@@ -209,9 +209,11 @@ public class Hello {
 ```
 
 * 코드블럭코드 (```) 이용방식
+코드블럭 옆에 c, java 등 프로그램을 지정할 수 있다.
+
 <pre>
 <code>
-```
+``` java
 public class Hello {
 
 	public static void main(String[] args) {

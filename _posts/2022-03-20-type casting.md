@@ -15,7 +15,7 @@ date: 2022-03-20 12:03:36 +0530
 JVM(Java Virtual Machine) 의 판단에 의해 자동적으로 형변환이 이루어지는 경우이다.  
 byte(1 byte) → short(2 byte) → int(4 byte) → long(8 byte) → float(4 byte) → double(8 byte) 순으로 자동 형변환이 이루어진다.
 
-```
+```java
 int num = 1;
 long num2 = num;
 ```
@@ -30,7 +30,7 @@ num이 자동으로 long형으로 형변환되어 num2에 할당되기 때문이
 * double or float to int  
 int 캐스팅 방식
 
-```
+```java
 double num1 = 10.101010;
 float num2 = 10.1010;
 
@@ -42,7 +42,7 @@ num3 = (int)num2; //float를 int로 형변환
 * ### int to double, float
 double, float 캐스팅 방식
 
-```
+```java
 int num1 = 10;
 	
 double num2 = (double)num1; //Int -> Double
@@ -53,7 +53,7 @@ float num3 = (float)num1; //Int -> Float
 
 자바 Integar 클래스의 parseInt 함수와 valueOf 함수 이용
 
-```
+```java
 String s_num = "10";
 int i_num1 = Integer.parseInt(s_num); //String -> Int 
 int i_num2 = Integer.valueOf(s_num); //String -> Int
@@ -63,7 +63,7 @@ int i_num2 = Integer.valueOf(s_num); //String -> Int
 
 자바 Long, Double, Float 클래스의 parseLong함수와 valueOf 함수 이용
 
-```
+```java
 String s_num = "10";
 double d_num = Double.parseLong(s_num); //String -> Double
 float f_num = Float.valueOf(s_num); //String -> Float
@@ -73,7 +73,7 @@ float f_num = Float.valueOf(s_num); //String -> Float
 
 자바 Long, Short 클래스의 parseLong함수와 parseShort 함수 이용
 
-```
+```java
 String s_num = "10";
 long l_num = Long.parseLong(s_num); //String -> Long
 short sh_num = Short.parseShort(s_num); //String -> Short
@@ -83,7 +83,7 @@ short sh_num = Short.parseShort(s_num); //String -> Short
 
 자바 String 클래스의 valueOf, toString 함수 이용
 
-```
+```java
 int i_num = 10;
 String s_num;
 		
@@ -96,7 +96,7 @@ s_num = ""+i_num; //int -> String
 
 자바 String 클래스의 valueOf, toString 함수 이용
 
-```
+```java
 float f_num = 10.10;
 double d_num = 10.10;
 		
