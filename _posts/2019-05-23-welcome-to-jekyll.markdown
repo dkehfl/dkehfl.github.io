@@ -262,18 +262,6 @@ github에 다운로드.jpeg라는 이미지를 업로드 후 위와 같이 입�
 
 사진이 첨부된다.
 
-이미지 사이즈 조정 시에는 ```<img width="" height=""></img>```를 이용한다.
-
-```
-<img src="다운로드.jpeg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="곰돌이"></img>
-```
-
-위와 같이 입력하면 
-
-<img src="다운로드.jpeg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="곰돌이"></img>
-
-다음과 같이 사진의 사이즈가 조정되어 첨부된다.
-
 ### 테이블
 * * *
 
