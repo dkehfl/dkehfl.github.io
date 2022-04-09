@@ -136,7 +136,8 @@ String c = new String("123");
 
 참고로 원시 자료형(primitive)인 int, long, double, float, boolean, char 등은 리터럴 표기만 가능하다. String은 원시 자료형이 아니지만, 특별히 리터럴 표기가 가능한 경우이다.
 
-**equals**
+**equals** : 문자열의 값을 비교할 때는 ==이 아닌 equals만을 사용한다.  
+a는 b와 같지 않으므로 equals 메소드 호출 시 false를 리턴한다.
 
 ```java
 String a = "hello";
@@ -145,8 +146,6 @@ String b = "java";
 
 System.out.println(a.equals(b)); // 문자열 a와 b가 같은지를 True 또는 False로 출력
 ```
-
-문자열의 값을 비교할 때는 ==이 아닌 equals만을 사용한다.  a는 b와 같지 않으므로 equals 메소드 호출 시 false를 리턴한다.
 
 **indexOf** : 문자열에서 특정 문자가 시작되는 위치를 리턴한다.
 
