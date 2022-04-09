@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "type casting"
+title: "Type Casting"
 date: 2022-03-20 12:03:36 +0530
 ---
 

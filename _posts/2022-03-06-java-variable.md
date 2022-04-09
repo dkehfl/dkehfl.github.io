@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "variable"
+title: "Variable"
 date: 2022-03-06 12:03:36 +0530
 ---
 

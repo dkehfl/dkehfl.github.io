@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "method"
+title:  "Method"
 date:   2022-04-09 04:03:36 +0530
 ---
 ## 메소드란?
