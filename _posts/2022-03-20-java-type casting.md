@@ -2,6 +2,7 @@
 layout: post
 title: "Type Casting"
 date: 2022-03-20 12:03:36 +0530
+categories: Java
 ---
 
 ## 형변환이란?

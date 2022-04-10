@@ -2,6 +2,7 @@
 layout: post
 title:  "Class"
 date:   2022-04-08 04:03:36 +0530
+categories: Java
 ---
 ## 클래스의 구성 요소
 ***

@@ -2,6 +2,7 @@
 layout: post
 title: "Variable"
 date: 2022-03-06 12:03:36 +0530
+categories: Java
 ---
 
 ## 변수(variable)

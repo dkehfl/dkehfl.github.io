@@ -2,6 +2,7 @@
 layout: post
 title:  "Method"
 date:   2022-04-09 04:03:36 +0530
+categories: Java
 ---
 ## 메소드란?
 ***

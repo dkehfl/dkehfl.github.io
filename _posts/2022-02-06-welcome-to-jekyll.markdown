@@ -2,6 +2,7 @@
 layout: post
 title:  "How to use Markdown?"
 date:   2022-02-06 12:03:36 +0530
+categories: Markdown
 ---
 ## 마크다운이란?
 ***
