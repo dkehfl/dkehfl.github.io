@@ -91,4 +91,39 @@ public class Method3 {
 }
 ```
 
+```java
+class Song {
+    String title;
+    String artist;
+    int year;
+    String country;
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+    public void setYear(int year) {
+        this.year = year;
+    }
+    public void setCountry(String country) {
+        this.country = country;
+    }
+    public void getInfo() {
+    }
+}
+
+public class Singsong {
+    public static void main(String[] args) {
+        Song S1 = new Song();
+        S1.setTitle("Dancing Queen");
+        S1.setArtist("ABBA");
+        S1.setYear(1978);
+        S1.setCountry("Sweden");
+        System.out.println(S1.year + "년," + S1.country + "국적의" + S1.artist + "가 부른" + S1.title);
+    }
+}
+```
+
 
