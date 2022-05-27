@@ -124,6 +124,35 @@ public class Singsong {
         System.out.println(S1.year + "년," + S1.country + "국적의" + S1.artist + "가 부른" + S1.title);
     }
 }
-```
+```    
+### 메소드 오버로딩
+같은 이름의 메소드를 여러 번 재사용할 수 있다. 메소드의 괄호 안 매개변수만 다르면 가능.     
+```java
+class School {
+    String name;		/// 메소드에서 사용할 매개변수들을 선언해준다.
+    int age;
+    char gender;
 
+    void Teacher() {	/// 메소드 1
+        System.out.println("선생님입니다");
+    }
+
+    void Teacher(String name) {		/// 메소드 2. 매개변수를 다르게 만들었다.
+        System.out.println("저의 이름은 " + name + "이고,");
+    }
+
+    void Teacher(int age, char gender) {		/// 메소드 3. 역시나 매개변수를 다르게 만들었다.
+        System.out.println(" 나이는 " + age + "살이고, 성별은 " + gender + "자 입니다.");
+    }
+}
+
+public class TeacherName {
+    public static void main(String[] args) {
+        School CH = new School();
+        CH.Teacher();		
+        CH.Teacher("Cherie");
+        CH.Teacher(19, '여');
+    }
+}
+```   
 
