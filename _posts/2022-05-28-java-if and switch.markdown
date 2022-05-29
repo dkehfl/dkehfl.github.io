@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "if / switch"
-description: if문과 switch문
 date:   2022-05-28 22:47:36 +0530
 categories: Java
 ---
