@@ -86,8 +86,7 @@ public class Week {
 ### switch문의 제약 조건
 switch문의 조건식의 결과는 정수 또는 문자열이어야 한다.   
 case문의 값은 정수 상수(final ~), 문자열만 가능하며, 같은 값의 case문이 여러 개여서는 안 된다.   
-다음을 보며 이해해 보자.
-
+다음을 보며 이해해 보자.    
 ```java
 public class Example {
     public static void main(String[] args) {
