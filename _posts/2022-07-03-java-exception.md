@@ -8,8 +8,11 @@ categories: Java
 ## 오류? 예외?
 ***
 오류(error)는 메모리 부족이나 운영체제의 문제 등 환경의 문제로 인해 발생하는 것이고, 예외(exception)는 개발자가 파일이 있다고 가정하고 코드를 작성했는데 파일이 없거나 잘못된 배열값을 입력하였을 때 등 개발자가 작성한 코드가 의도와 다른 상황에 마주했을 때 발생하는 것이다. 대충 말하면 오류는 컴퓨터 탓, 예외는 니 탓이다.   
-부모 클래스는 둘다 Throwable이다. 자세한 건 다음을 참고하도록 하자.
+부모 클래스는 둘다 Throwable이다. 자세한 건 다음을 참고하도록 하자.    
+
 ![스샷](http://drive.google.com/uc?export=view&id=1JFu2ljupPRg4Abw9GikUcaWEH6uCDJ04)
+     
+
 ## Compile-time-error 와 runtime error
 ***
 에러는 컴파일 에러와 런타임 에러로 구분할 수 있다.   
@@ -135,6 +138,31 @@ public class Exception03 {
     }
 }
 ```
+비밀번호 자릿수가 10보다 짧을 경우에 예외를 발생시킨다.
+
+### 사용자 정의 예외
+말 그대로 사용자가 직접 정의하는 예외이다. checked와 unchecked 모두 만들 수 있다. 전자는 exception을 상속하고 후자는 runtimeexception을 상속하면 된다. 상속받은 부모 클래스로 생성자를 만들면 사용자 정의 예외를 이용할 수 있다.
+
+```java
+class MyCheckedException extends Exception{     // 상속
+
+    public MyException(String message) {    // 생성자
+        super(message);
+    }
+}
+
+public class CheckAndUnCheck {
+    public static void main(String[] args) {
+        try {
+            throw new MyCheckedException("커스텀한 예외입니다.");
+        } catch (MyCheckedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+왜안뜨지..
+
 
 
 
