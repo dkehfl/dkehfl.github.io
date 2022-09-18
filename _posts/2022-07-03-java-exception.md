@@ -140,6 +140,7 @@ public class Exception03 {
 ```
 비밀번호 자릿수가 10보다 짧을 경우에 예외를 발생시킨다.
 
+
 ### 사용자 정의 예외
 말 그대로 사용자가 직접 정의하는 예외이다. checked와 unchecked 모두 만들 수 있다. 전자는 exception을 상속하고 후자는 runtimeexception을 상속하면 된다. 상속받은 부모 클래스로 생성자를 만들면 사용자 정의 예외를 이용할 수 있다.
 
