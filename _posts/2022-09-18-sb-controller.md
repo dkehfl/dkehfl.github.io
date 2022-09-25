@@ -43,7 +43,7 @@ public class TestController {
 ```
 
 웹상에서는 다음과 같이 보여진다.
-[test1진짜](http://drive.google.com/uc?export=view&id=1_mwpG25NDXhFu-usouOb-IEqJDC4lqv-)
+![test1진짜](http://drive.google.com/uc?export=view&id=1_mwpG25NDXhFu-usouOb-IEqJDC4lqv-)
 
 
 이번에는 다른 형태의 내용을 띄워 보자.   
@@ -62,7 +62,7 @@ public class TestController {
 }
 ```
 웹상에서는 다음과 같이 보여진다.
-[test1_](http://drive.google.com/uc?export=view&id=1w8UJxnTjliS-f_sYnqF6S7lUX9sFSghi)
+![test1_](http://drive.google.com/uc?export=view&id=1w8UJxnTjliS-f_sYnqF6S7lUX9sFSghi)
 
 
 아래처럼 작성할 수도 있다. ```localhost:8080/api/test3/(원하는 문자)``` 요렇게 입력하자.
@@ -82,4 +82,4 @@ public class TestController {
 }
 ```
 웹상에서는 다음과 같이 보여진다.
-[test3](http://drive.google.com/uc?export=view&id=1Mf8Ssan8B02Y0BzNOpL9ylNdlEOgf8Ht)
+![test3](http://drive.google.com/uc?export=view&id=1Mf8Ssan8B02Y0BzNOpL9ylNdlEOgf8Ht)
