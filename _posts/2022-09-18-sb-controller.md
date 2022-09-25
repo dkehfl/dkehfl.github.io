@@ -25,7 +25,7 @@ Slf4j는 로그 작성을 위해 불러왔다. 뒤를 참고하자.
 
 
 다음으로 TestController 클래스를 작성하자. TestController 클래스 안에 매핑할 내용들을 각각 메소드와 함께 작성해 주면 된다.    
-다음으로는 test를 매핑해 준다. 이렇게 하면 ```api/test``` 이런 식으로 입력하면 창이 뜬다. GetMapping 외에도 여러 목적의 http 매핑 종류가 총 6개 존재한다. 나머지는 다음에 포스팅할 생각이다.    
+다음으로는 test를 매핑해 준다. 이렇게 하면 ```localhost:8080/api/test``` 이런 식으로 입력하면 창이 뜬다. GetMapping 외에도 여러 목적의 http 매핑 종류가 총 6개 존재한다. 나머지는 다음에 포스팅할 생각이다.    
 그 밑에는 TestMethod 메소드에 창에서 띄울 내용을 작성해 준다.
 
 ```java
@@ -47,7 +47,7 @@ public class TestController {
 
 
 이번에는 다른 형태의 내용을 띄워 보자.   
-내용은 위와 비슷한데 여기서는 int값을 띄운다. 변수 number에 원하는 숫자를 입력해 주면 된다.
+내용은 위와 비슷한데 여기서는 int값을 띄운다. 변수 number에 원하는 숫자를 입력해 주면 된다. ```localhost:8080/api/test2?number=(원하는 숫자)``` 요렇게 입력하자.
 ```java
 @Slf4j
 @RequestMapping("/api")
@@ -65,7 +65,7 @@ public class TestController {
 [test1_](http://drive.google.com/uc?export=view&id=1w8UJxnTjliS-f_sYnqF6S7lUX9sFSghi)
 
 
-아래처럼 작성할 수도 있다.
+아래처럼 작성할 수도 있다. ```localhost:8080/api/test3/(원하는 문자)``` 요렇게 입력하자.
 
 ```java
 @Slf4j
@@ -83,4 +83,3 @@ public class TestController {
 ```
 웹상에서는 다음과 같이 보여진다.
 [test3](http://drive.google.com/uc?export=view&id=1Mf8Ssan8B02Y0BzNOpL9ylNdlEOgf8Ht)
-왜안뜸씨발ㅡㅡ
