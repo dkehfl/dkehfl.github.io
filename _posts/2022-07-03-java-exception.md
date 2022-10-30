@@ -8,17 +8,26 @@ categories: Java
 ## 오류? 예외?
 ***
 오류(error)는 메모리 부족이나 운영체제의 문제 등 환경의 문제로 인해 발생하는 것이고, 예외(exception)는 개발자가 파일이 있다고 가정하고 코드를 작성했는데 파일이 없거나 잘못된 배열값을 입력하였을 때 등 개발자가 작성한 코드가 의도와 다른 상황에 마주했을 때 발생하는 것이다. 대충 말하면 오류는 컴퓨터 탓, 예외는 니 탓이다.   
+<<<<<<< HEAD
 부모 클래스는 둘다 Throwable이다. 자세한 건 다음을 참고하도록 하자.    
 
 ![스샷](http://drive.google.com/uc?export=view&id=1JFu2ljupPRg4Abw9GikUcaWEH6uCDJ04)
      
 
+=======
+부모 클래스는 둘다 Throwable이다. 자세한 건 다음을 참고하도록 하자.
+![스샷](http://drive.google.com/uc?export=view&id=1JFu2ljupPRg4Abw9GikUcaWEH6uCDJ04)
+>>>>>>> e2751a6804e42be98285a1a3a38144d2c6bc3125
 ## Compile-time-error 와 runtime error
 ***
 에러는 컴파일 에러와 런타임 에러로 구분할 수 있다.   
 컴파일 에러는 말 그대로 컴파일 도중에 발생하는 에러이고 런타임 에러는 컴파일 과정에서는 문제가 없었지만 실행 도중 발생한 에러를 가리킨다.
 
+<<<<<<< HEAD
 ## 예외 처리
+=======
+## 예외 처리    
+>>>>>>> e2751a6804e42be98285a1a3a38144d2c6bc3125
 ***
 간단히 말하면 예외가 발생하였을 때를 대비하여 처신을 하는 것이다. 예외 때문에 프로그램이 안 돌아가면 꼴받으니까 . . .   
 예외는 ```try```, ```catch```, ```finally```, ```throw```, ```throws``` 등의 코드를 이용하여 처리한다.   
@@ -138,6 +147,7 @@ public class Exception03 {
     }
 }
 ```
+<<<<<<< HEAD
 비밀번호 자릿수가 10보다 짧을 경우에 예외를 발생시킨다.
 
 
@@ -164,6 +174,8 @@ public class CheckAndUnCheck {
 ```
 왜안뜨지..
 
+=======
+>>>>>>> e2751a6804e42be98285a1a3a38144d2c6bc3125
 
 
 
